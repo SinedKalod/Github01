@@ -37,5 +37,12 @@ namespace Github01
             double soucin = x * y;
             MessageBox.Show("Součin je: " + soucin);
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            double x = double.Parse(textBox1.Text), y = double.Parse(textBox2.Text);
+            double podil = x / y;
+            MessageBox.Show("Podíl je: " + podil);
+        }
     }
 }
