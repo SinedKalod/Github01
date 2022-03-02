@@ -21,7 +21,7 @@ namespace Github01
         {
             double x = double.Parse(textBox1.Text), y = double.Parse(textBox2.Text);
             double soucet = x + y;
-            MessageBox.Show("Soucet je " + soucet);
+            MessageBox.Show("Soucet je: " + soucet);
         }
     }
 }
