@@ -23,5 +23,12 @@ namespace Github01
             double soucet = x + y;
             MessageBox.Show("Soucet je: " + soucet);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            double x = double.Parse(textBox1.Text), y = double.Parse(textBox2.Text);
+            double rozdil = x - y;
+            MessageBox.Show("Rozdíl je: " + rozdil);
+        }
     }
 }
